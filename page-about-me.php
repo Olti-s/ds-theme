@@ -1,3 +1,7 @@
+<?php
+    // Template Name: About Page
+?>
+
 <?php  get_header();     ?>
 
 
@@ -6,7 +10,6 @@
   if(have_posts()):
   while(have_posts()): the_post();?>
 <h2><?php   the_title();   ?></h2>
-<small><?php the_time('Y/m/d');  ?>  in <?php the_category(); ?> </small>
 <p><?php the_content();   ?></p>
 <?php endwhile;   ?>
 <?php endif;?>
