@@ -20,9 +20,7 @@
        }else{
         echo"<h5>Sorry, comments are closed!!!</h5>";
        }
-       
-       
-       
+    
        ?>
        <?php endwhile;
          endif;
